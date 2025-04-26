@@ -1,6 +1,6 @@
-import FeatureSection from "../components/FeatureSection";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import OurMvp from "../components/OurMvp";
 import TrustedBy from "../components/TrustedBy";
 
 const HomePage = () => {
@@ -10,7 +10,7 @@ const HomePage = () => {
       <main>
         <Hero/>
         <TrustedBy/>
-        <FeatureSection/>
+        <OurMvp/>
       </main>
     </div>
   );

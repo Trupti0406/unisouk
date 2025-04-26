@@ -1,6 +1,6 @@
 import React from "react";
 
-const FeatureSection = () => {
+const OurMvp = () => {
   const features = [
     {
       title: "Boost Productivity",
@@ -37,13 +37,11 @@ const FeatureSection = () => {
             feature.reversed ? "flex-row-reverse" : ""
           }`}>
           <div className="md:w-1/2 mb-8 md:mb-0">
-           
-              <img
-                src={feature.image}
-                alt={feature.title}
-                className="w-96 h-96 object-cover"
-              />
-           
+            <img
+              src={feature.image}
+              alt={feature.title}
+              className="w-96 h-96 object-cover"
+            />
           </div>
           <div className="md:w-1/2">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
@@ -80,4 +78,4 @@ const FeatureSection = () => {
   );
 };
 
-export default FeatureSection;
+export default OurMvp;
