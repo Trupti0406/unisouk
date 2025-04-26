@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import TrustedBy from "../components/TrustedBy";
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <Navbar />
       <main>
         <Hero/>
+        <TrustedBy/>
       </main>
     </div>
   );
