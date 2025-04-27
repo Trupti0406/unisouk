@@ -14,7 +14,7 @@ const FeatureCard = ({ icon, title, description }) => {
 
 const Features = () => {
   return (
-    <div className="px-6 md:px-12 max-w-6xl mx-auto text-center py-16" id="features">
+    <div className="px-6 md:px-12 max-w-7xl mx-auto text-center py-16" id="features">
       <div className="max-w-4xl mx-auto mb-12 text-center">
         <h2 className="text-3xl font-bold mb-4">Our Features</h2>
         <p className="text-gray-600">

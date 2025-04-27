@@ -78,7 +78,7 @@ const TeamMember = ({ name, role, image, socials, bgColor }) => {
 
 const OurTeam = () => {
   return (
-      <div className="px-6 md:px-12 max-w-6xl mx-auto py-16 ">
+      <div className="px-6 md:px-12 max-w-7xl mx-auto py-16 ">
         <div className="mb-12">
           <p className="mb-2 text-sm tracking-wide text-indigo-500 uppercase">
             Our Team
