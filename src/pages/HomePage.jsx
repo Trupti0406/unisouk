@@ -1,3 +1,4 @@
+import Features from "../components/Features";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import OurMvp from "../components/OurMvp";
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Hero/>
         <TrustedBy/>
         <OurMvp/>
+        <Features/>
       </main>
     </div>
   );
