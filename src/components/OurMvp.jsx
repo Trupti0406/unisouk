@@ -29,7 +29,7 @@ const OurMvp = () => {
   ];
 
   return (
-    <div className="px-6 md:px-12 max-w-5xl mx-auto ">
+    <div className="px-6 md:px-12 max-w-5xl mx-auto py-16">
       {features.map((feature, index) => (
         <div
           key={index}

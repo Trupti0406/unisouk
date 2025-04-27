@@ -60,8 +60,8 @@ const SmallBlogCard = ({ title, image, excerpt, category, badgeColor }) => {
 
 const BlogSection = () => {
   return (
-    <div className="bg-gray-50">
-      <div className="px-6 md:px-12 max-w-7xl mx-auto py-16 " id="blog">
+    <div className="bg-gray-50 py-16">
+      <div className="px-6 md:px-12 max-w-7xl mx-auto " id="blog">
         <div className="mb-8">
           <h2 className="text-3xl font-bold">The Project Blog</h2>
           <p className="text-gray-600">
