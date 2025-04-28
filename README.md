@@ -4,7 +4,7 @@ A responsive website built with **React.js**, **Vite**, and **Tailwind CSS**.for
 
 ## Live Demo
 
-👉 [Click here to view the live site](YOUR_LIVE_SITE_LINK)
+👉 [Click here to view the live site](https://unisouk-assignment-by-trupti.netlify.app/)
 
 ## Screenshots
 
