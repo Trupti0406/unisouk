@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="px-6 md:px-12 py-16 md:pt-44 pb-30 max-w-4xl mx-auto text-center"id="home">
+    <div className="px-6 md:px-12 py-16 pt-36 md:pt-44 pb-30 max-w-4xl mx-auto text-center"id="home">
       <h1 className="text-4xl md:text-7xl font-bold mb-5 text-black">
         Start Crafting Your <br />
         <span className="text-indigo-600 block md:inline">Next Great Idea</span>

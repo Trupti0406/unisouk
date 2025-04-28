@@ -42,7 +42,7 @@ export const recentBlogs = [
     title: "Best Workstations of the Year",
     image:
       "https://images.unsplash.com/photo-1585362028211-dee1aba5fdd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya3N0YXRpb258ZW58MHx8MHx8fDA%3D",
-    excerpt: "Check out the top-rated workstations for 2023",
+    excerpt: "Check out these inspring workstations to get ideas on how to level up your workstation.",
   },
   {
     category: "Food",
@@ -50,7 +50,7 @@ export const recentBlogs = [
     title: "Eating for Productivity",
     image:
       "https://plus.unsplash.com/premium_photo-1712507240095-3d1d6beef1ca?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    excerpt: "What to eat to stay focused during work hours",
+    excerpt: "Learn how to me more descipined in your diet and how you can eat to maximize productivity.",
   },
   {
     category: "Resources",
@@ -58,6 +58,6 @@ export const recentBlogs = [
     title: "A Design Mind-set",
     image:
       "https://plus.unsplash.com/premium_photo-1661299203633-edbcbf8e50dd?q=80&w=2125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    excerpt: "How to approach problems with a design thinking mindset",
+    excerpt: "What does it mean to have a design mind-set? Learn how to improve your eye for design.",
   },
 ];

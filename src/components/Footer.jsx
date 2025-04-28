@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-50 py-16">
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center space-y-6">
-        <div className="flex flex-wrap justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-10">
           <a
             href="#"
             className="text-gray-400 hover:text-indigo-600 font-semibold text-sm">
@@ -129,7 +129,17 @@ const Footer = () => {
 
         {/* Third Row - Copyright */}
         <div className="text-center text-gray-400 text-sm font-medium">
-          <p>@ Made by Trupti. All rights reserved.</p>
+          <p>
+            @ Made by
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/trupti-yadav"
+              className="text-indigo-400 hover:text-indigo-600">
+              {" "}
+              Trupti Yadav.
+            </a>{" "}
+            All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

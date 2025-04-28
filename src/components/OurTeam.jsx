@@ -88,7 +88,7 @@ const OurTeam = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 gap-y-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-12">
           {team.map((member, index) => (
             <TeamMember
               key={index}

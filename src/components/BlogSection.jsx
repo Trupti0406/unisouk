@@ -24,8 +24,11 @@ const BlogCard = ({
             className={`absolute -top-4 inline-block px-3 py-1 text-sm font-semibold ${badgeText} bg-white rounded-full mb-2`}>
             {category}
           </span>
-          <h3 className={`text-5xl font-bold mb-3 ${textColor}`}>{title}</h3>
-          <p className={`${textColor} opacity-90 mb-0 text-xl sm:text-lg`}>
+          <h3
+            className={`text-5xl md:text-3xl lg:text-5xl font-bold mb-3 ${textColor}`}>
+            {title}
+          </h3>
+          <p className={`${textColor} opacity-90 mb-0 text-sm sm:text-lg`}>
             {excerpt}
           </p>
         </div>
@@ -36,20 +39,20 @@ const BlogCard = ({
 
 const SmallBlogCard = ({ title, image, excerpt, category, badgeColor }) => {
   return (
-    <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 h-76">
-      <div className=" bg-white">
+    <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 sm:h-96 xl:h-84">
+      <div>
         <img
           src={image}
           alt={title}
           className="w-full h-44 object-cover mb-4 hover:scale-125"
         />
-        <div className="bg-white h-28  px-6 relative">
+        <div className=" h-32 md:h-44 lg:h-28  px-6 md:px-3 lg:px-6 relative">
           <span
             className={`absolute -top-8 inline-block px-3 py-1 text-sm text-white font-semibold ${badgeColor} rounded-full`}>
             {category}
           </span>
           <h3 className={`text-xl font-bold mb-2 text-black`}>{title}</h3>
-          <p className={`text-black opacity-90 mb-0 text-xl sm:text-lg`}>
+          <p className={`text-black opacity-90 mb-0 text-sm sm:text-lg`}>
             {excerpt}
           </p>
         </div>
